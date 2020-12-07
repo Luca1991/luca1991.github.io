@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Luca D'Amico"
   avatar           : "https://avatars2.githubusercontent.com/u/3731220" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm a programmer with a Computer Science degree. Linux and Android user, open source supporter, reverse engineering aficionado."
+  bio              : "I'm a programmer with an Engineering and Computer Science master's degree. Linux and Android user, open source supporter, reverse engineering aficionado."
   location         : "Italy"
   email            : "contact@lucadamico.dev"
   links:
