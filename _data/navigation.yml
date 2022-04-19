@@ -1,8 +1,8 @@
 main:
   - title: "Projects"
-    url:  /#projects
-  - title: "Forks"
-    url: /#forks
+    url: /#projects
+  - title: "Technical Papers"
+    url: /#papers
   - title: "About Me"
     url: /#about
 

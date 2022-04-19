@@ -3,12 +3,8 @@ permalink: /
 ---
 
 
-
+## My GitHub repositories <a id="projects" />
 {% assign public_repositories = site.github.public_repositories | where:'fork', false | sort: 'pushed_at' | reverse %}
-{% assign public_forks = site.github.public_repositories | where:'fork', true | sort: 'pushed_at' | reverse %}
-
-<h4 id="projects" class="page__title">Public original projects I'm working on (from my GitHub activity):</h4>
-
 | Title | Description | Last Push |
 | :---:  | :---: | :---: |
 {% for repository in public_repositories limit: 9 -%}
@@ -16,15 +12,19 @@ permalink: /
 {% endfor %}
 <br />
 
-<h4 id="forks" class="page__title">Public forks I'm working on (from my GitHub activity):</h4>
 
-| Title | Description | Last Push |
+## Technical Papers <a id="papers" />
+
+### Old-Skool DRMs
+#### These are some technical papers I've written while reverse engineering very old DRMs that aren't used anymore, just for learning purposes.
+
+| Title | English PDF | Italian PDF |
 | :---:  | :---: | :---: |
-{% for fork in public_forks limit: 9 -%}
-| [{{ fork.name }}]({{ fork.html_url }}) | {{fork.description}} | {{fork.pushed_at}} |
-{% endfor %}
+|Safedisc 1.06-1.11 (Midtown Madness)|[Download]({{site.url}}/papers/safedisc/MidtownMadness.pdf)|[Download]({{site.url}}/papers/safedisc/MidtownMadness_ITA.pdf)
+|Laserlock (Evolva)|WIP|WIP
+
 <br />
 
-<h4 id="about" class="page__title">About</h4>
+## About <a id="about" />
 
 Work in progress
