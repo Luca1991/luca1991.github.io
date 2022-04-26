@@ -2,6 +2,7 @@
 permalink: /
 ---
 
+Welcome to my personal website
 
 ## My GitHub repositories <a id="projects" />
 {% assign public_repositories = site.github.public_repositories | where:'fork', false | sort: 'pushed_at' | reverse %}
