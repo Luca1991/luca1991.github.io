@@ -22,7 +22,7 @@ Welcome to my personal website
 | Title | English PDF | Italian PDF |
 | :---:  | :---: | :---: |
 |Safedisc 1.06-1.11 (Midtown Madness)|[Download]({{site.url}}/papers/safedisc/MidtownMadness.pdf)|[Download]({{site.url}}/papers/safedisc/MidtownMadness_ITA.pdf)
-|Laserlock (Evolva)|WIP|[Download]({{site.url}}/papers/laserlock/Evolva_ITA.pdf)
+|Laserlock (Evolva)|[Download]({{site.url}}/papers/laserlock/Evolva.pdf)|[Download]({{site.url}}/papers/laserlock/Evolva_ITA.pdf)
 
 <br />
 
