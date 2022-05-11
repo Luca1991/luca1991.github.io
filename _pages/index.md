@@ -23,6 +23,7 @@ Welcome to my personal website
 | :---:  | :---: | :---: |
 |Safedisc 1.06-1.11 (Midtown Madness)|[Download]({{site.url}}/papers/safedisc/MidtownMadness.pdf)|[Download]({{site.url}}/papers/safedisc/MidtownMadness_ITA.pdf)
 |Laserlock (Evolva)|[Download]({{site.url}}/papers/laserlock/Evolva.pdf)|[Download]({{site.url}}/papers/laserlock/Evolva_ITA.pdf)
+|SecuROM *new* 4.48.00.0004 (Arabian Nights)|---|[Download]({{site.url}}/papers/securom/ArabianNights_ITA.pdf)
 
 <br />
 
