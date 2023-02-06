@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.15.2"
+remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Luca D'Amico"
   avatar           : "https://avatars2.githubusercontent.com/u/3731220" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm a programmer with an Engineering and Computer Science master's degree. I like reverse engineering and low level stuff."
+  bio              : "I'm a software developer with an Engineering and Computer Science master's degree. Mainly interested in reverse engineering, cyber security and low level stuff."
   location         : "Italy"
   email            : "contact@lucadamico.dev"
   links:
