@@ -23,9 +23,9 @@ These are some technical papers about different malware I've reverse engineered 
 
 | Title | English PDF | Italian PDF |
 | :---:  | :---: | :---: |
-|Disk Knight (worm.diskknight/knight)|----|[Download]({{site.url}}/papers/malware_analysis/DiskKnight_ITA.pdf)
+|Disk Knight (worm.diskknight/knight)|[Download]({{site.url}}/papers/malware_analysis/DiskKnight.pdf)|[Download]({{site.url}}/papers/malware_analysis/DiskKnight_ITA.pdf)
 
-## Old-Skool DRMs & Technical Papers
+## Old-Skool DRMs Technical Papers
 These are some technical papers I've written while reverse engineering very old DRMs that aren't used anymore, just for learning purposes.
 
 | Title | English PDF | Italian PDF |
