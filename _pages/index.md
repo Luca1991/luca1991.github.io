@@ -30,10 +30,10 @@ These are some technical papers I've written while reverse engineering very old 
 
 | Title | English PDF | Italian PDF |
 | :---:  | :---: | :---: |
-|Safedisc 1.06-1.11 (Midtown Madness)|[Download]({{site.url}}/papers/safedisc/MidtownMadness.pdf)|[Download]({{site.url}}/papers/safedisc/MidtownMadness_ITA.pdf)
-|Laserlock (Evolva)|[Download]({{site.url}}/papers/laserlock/Evolva.pdf)|[Download]({{site.url}}/papers/laserlock/Evolva_ITA.pdf)
-|SecuROM **new** 4.48.00.0004 (Arabian Nights)|[Download]({{site.url}}/papers/securom/ArabianNights.pdf)|[Download]({{site.url}}/papers/securom/ArabianNights_ITA.pdf)
-|SecuROM **new** 3.06.00.0003 (South Park Rally)|----|[Download]({{site.url}}/papers/securom/SouthParkRally_ITA.pdf)
+|Safedisc 1.06-1.11 (Midtown Madness)|[Download]({{site.url}}/papers/drms/safedisc/MidtownMadness.pdf)|[Download]({{site.url}}/papers/drms/safedisc/MidtownMadness_ITA.pdf)
+|Laserlock (Evolva)|[Download]({{site.url}}/papers/drms/laserlock/Evolva.pdf)|[Download]({{site.url}}/papers/drms/laserlock/Evolva_ITA.pdf)
+|SecuROM **new** 4.48.00.0004 (Arabian Nights)|[Download]({{site.url}}/papers/drms/securom/ArabianNights.pdf)|[Download]({{site.url}}/papers/drms/securom/ArabianNights_ITA.pdf)
+|SecuROM **new** 3.06.00.0003 (South Park Rally)|----|[Download]({{site.url}}/papers/drms/securom/SouthParkRally_ITA.pdf)
 
 ## ReverseIT
 Are you interested in reverse engineering and cyber security? Then you should check [ReverseIT](https://reverseit.space), the italian-based space about everything low level!
