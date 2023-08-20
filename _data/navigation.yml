@@ -1,6 +1,4 @@
 main:
-  - title: "GitHub"
-    url: /#github
   - title: "Projects"
     url: /#projects
   - title: "About Me"

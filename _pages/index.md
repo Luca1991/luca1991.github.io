@@ -4,35 +4,34 @@ permalink: /
 
 Welcome to my personal website
 
-# ⭐️ GitHub Stuff <a id="github" />
-## OG Repositories & Stats
-{% assign public_repositories = site.github.public_repositories | where:'fork', false | sort: 'pushed_at' | reverse %}
-| Title | Description | Last Push |
-| :---:  | :---: | :---: |
-{% for repository in public_repositories limit: 9 -%}
-| [{{ repository.name }}]({{ repository.html_url }}) | {{repository.description}} | {{repository.pushed_at}} |
-{% endfor %}
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Luca1991&theme=dark&hide_border=true&show_icons=true&line_height=20&count_private=true){:style="display:block; margin-left:auto; margin-right:auto"}
-
-<br>
-
 # 🧑🏻‍💻 Projects <a id="projects" />
-## Malware Analysis Papers
+
+
+<details markdown="1">
+<summary><h2>Malware Analysis Papers</h2></summary>
+
 These are some technical papers about different malware I've reverse engineered and analyzed.
 
 | Title | English PDF | Italian PDF |
 | :---:  | :---: | :---: |
 |Disk Knight (worm.diskknight/knight)|[Download]({{site.url}}/papers/malware_analysis/DiskKnight.pdf)|[Download]({{site.url}}/papers/malware_analysis/DiskKnight_ITA.pdf)
 
-## Unpacking Papers
+</details>
+
+<details markdown="1">
+<summary><h2>Unpacking Papers</h2></summary>
+
 These are some technical papers about some obscure and underground packers.
 
 | Title | English PDF | Italian PDF |
 | :---:  | :---: | :---: |
 |Pepsi 2.0|----|[Download]({{site.url}}/papers/packers/Pepsi_2.0_ITA.pdf)
 
-## Old-Skool DRMs Technical Papers
+</details>
+
+<details markdown="1">
+<summary><h2>Old-Skool DRMs Technical Papers</h2></summary>
+
 These are some technical papers I've written while reverse engineering very old DRMs that aren't used anymore, just for learning purposes.
 
 | Title | English PDF | Italian PDF |
@@ -42,8 +41,14 @@ These are some technical papers I've written while reverse engineering very old 
 |SecuROM **new** 4.48.00.0004 (Arabian Nights)|[Download]({{site.url}}/papers/drms/securom/ArabianNights.pdf)|[Download]({{site.url}}/papers/drms/securom/ArabianNights_ITA.pdf)
 |SecuROM **new** 3.06.00.0003 (South Park Rally)|----|[Download]({{site.url}}/papers/drms/securom/SouthParkRally_ITA.pdf)
 
-## ReverseIT
+</details>
+
+<details markdown="1">
+<summary><h2>ReverseIT</h2></summary>
+
 Are you interested in reverse engineering and cyber security? Then you should check [ReverseIT](https://reverseit.space), the italian-based space about everything low level!
+
+</details>
 
 <br>
 

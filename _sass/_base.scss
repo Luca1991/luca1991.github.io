@@ -337,3 +337,16 @@
     -webkit-transition: $global-transition;
     transition: $global-transition;
   }
+
+  /*
+     Summary tag fixes
+     ========================================================================== */
+
+  details summary { 
+    cursor: pointer;
+    margin-bottom: 5%;
+  }
+  
+  details summary > * {
+    display: inline;
+  }
