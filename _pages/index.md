@@ -25,6 +25,13 @@ These are some technical papers about different malware I've reverse engineered 
 | :---:  | :---: | :---: |
 |Disk Knight (worm.diskknight/knight)|[Download]({{site.url}}/papers/malware_analysis/DiskKnight.pdf)|[Download]({{site.url}}/papers/malware_analysis/DiskKnight_ITA.pdf)
 
+## Unpacking Papers
+These are some technical papers about some obscure and underground packers.
+
+| Title | English PDF | Italian PDF |
+| :---:  | :---: | :---: |
+|Pepsi 2.0|----|[Download]({{site.url}}/papers/packers/Pepsi_2.0_ITA.pdf)
+
 ## Old-Skool DRMs Technical Papers
 These are some technical papers I've written while reverse engineering very old DRMs that aren't used anymore, just for learning purposes.
 
