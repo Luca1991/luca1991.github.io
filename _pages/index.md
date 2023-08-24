@@ -25,7 +25,7 @@ These are some technical papers about some obscure and underground packers.
 
 | Title | English PDF | Italian PDF |
 | :---:  | :---: | :---: |
-|Pepsi 2.0|----|[Download]({{site.url}}/papers/packers/Pepsi_2.0_ITA.pdf)
+|Pepsi 2.0|[Download]({{site.url}}/papers/packers/Pepsi_2.0.pdf)|[Download]({{site.url}}/papers/packers/Pepsi_2.0_ITA.pdf)
 
 </details>
 
