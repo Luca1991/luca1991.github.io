@@ -1,0 +1,82 @@
+{
+    "malware_analysis": [
+        {
+            "title": "Disk Knight (worm.diskknight/knight)",
+            "download": [
+                {
+                    "language": "en",
+                    "url": "/papers/malware_analysis/DiskKnight.pdf"
+                },
+                {
+                    "language": "ita",
+                    "url": "/papers/malware_analysis/DiskKnight_ITA.pdf"
+                }
+            ]
+        }
+    ],
+    "unpacking": [
+        {
+            "title": "Pepsi 2.0",
+            "download": [
+                {
+                    "language": "en",
+                    "url": "/papers/packers/Pepsi_2.0.pdf"
+                },
+                {
+                    "language": "ita",
+                    "url": "/papers/packers/Pepsi_2.0_ITA.pdf"
+                }
+            ]
+        }
+    ],
+    "drm": [
+        {
+            "title": "Safedisc 1.06-1.11 (Midtown Madness)",
+            "download": [
+                {
+                    "language": "en",
+                    "url": "/papers/drms/safedisc/MidtownMadness.pdf"
+                },
+                {
+                    "language": "ita",
+                    "url": "/papers/drms/safedisc/MidtownMadness_ITA.pdf"
+                }
+            ]
+        },
+        {
+            "title": "Laserlock (Evolva)",
+            "download": [
+                {
+                    "language": "en",
+                    "url": "/papers/drms/laserlock/Evolva.pdf"
+                },
+                {
+                    "language": "ita",
+                    "url": "/papers/drms/laserlock/Evolva_ITA.pdf"
+                }
+            ]
+        },
+        {
+            "title": "SecuROM new 4.48.00.0004 (Arabian Nights)",
+            "download": [
+                {
+                    "language": "en",
+                    "url": "/papers/drms/securom/ArabianNights.pdf"
+                },
+                {
+                    "language": "ita",
+                    "url": "/papers/drms/securom/ArabianNights_ITA.pdf"
+                }
+            ]
+        },
+        {
+            "title": "SecuROM new 3.06.00.0003 (South Park Rally)",
+            "download": [
+                {
+                    "language": "ita",
+                    "url": "https://lucadamico.dev/papers/drms/securom/SouthParkRally_ITA.pdf"
+                }
+            ]
+        }
+    ]
+}
