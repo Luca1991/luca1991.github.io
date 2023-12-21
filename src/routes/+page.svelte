@@ -66,7 +66,7 @@ emailAddr="contact@lucadamico.dev" />
     cardImage="/resources/icons/github.png"
     cardBtnText="Open repo"
     onBtnClick={() => {
-        window.location.href = 'https://github.com/Luca1991/NDSFactory';
+        window.open("https://github.com/Luca1991/NDSFactory", "_blank");
      }} />
 
     <CardItem cardTitle="MoRePhun" 
@@ -74,7 +74,7 @@ emailAddr="contact@lucadamico.dev" />
     cardImage="/resources/icons/github.png"
     cardBtnText="Open repo"
     onBtnClick={() => {
-        window.location.href = 'https://github.com/Luca1991/MoRePhun';
+        window.open("https://github.com/Luca1991/MoRePhun", "_blank");
     }} />
 
     <CardItem cardTitle="Puzzle Bobble Grub2 Theme" 
@@ -82,7 +82,7 @@ emailAddr="contact@lucadamico.dev" />
     cardImage="/resources/icons/github.png"
     cardBtnText="Open repo"
     onBtnClick={() => {
-        window.location.href = 'https://github.com/Luca1991/Puzzle-Bobble-Grub2-Theme';
+        window.open("https://github.com/Luca1991/Puzzle-Bobble-Grub2-Theme", "_blank");
     }} />
 </div>
 
@@ -93,6 +93,6 @@ emailAddr="contact@lucadamico.dev" />
      cardImage="/resources/cards/projects/reverseit.png"
      cardBtnText="Visit website"
      onBtnClick={() => {
-        window.location.href = 'https://reverseit.space';
+        window.open("https://reverseit.space", "_blank");
      }} />
 </div> 

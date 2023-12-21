@@ -22,7 +22,7 @@
                             <div class="flex justify-center">
                                 {#each document.download as dl }
                                 <div class="px-4">
-                                    <a href="{dl.url}"> 
+                                    <a href="{dl.url}" target="_blank"> 
                                         <img src="/resources/icons/flags/{dl.language}.png" alt="{dl.language}" /> 
                                     </a>
                                 </div>
