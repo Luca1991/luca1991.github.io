@@ -27,13 +27,16 @@ emailAddr="contact@lucadamico.dev" />
 
 
 <ParTitle parTitle="Technical Papers" />
-<div class="flex justify-evenly px-8">
+<div class="flex place-content-center flex-wrap gap-x-2 gap-y-2 flex-col md:justify-evenly md:flex-row md:gap-y-auto">
    <CardItem cardTitle="Malware Analysis" 
     cardText="Technical papers about different malware I’ve reverse engineered and analyzed"
     cardImage="/resources/cards/papers/malware.png"
     cardBtnText="Open"
     onBtnClick={() => {
         currentDocuments = papersIndex.malware_analysis;
+        document.getElementById("docs-table")?.scrollIntoView({
+            behavior: 'smooth'
+        });
      }} />
 
     <CardItem cardTitle="Unpacking" 
@@ -42,6 +45,9 @@ emailAddr="contact@lucadamico.dev" />
     cardBtnText="Open"
     onBtnClick={() => {
         currentDocuments = papersIndex.unpacking;
+        document.getElementById("docs-table")?.scrollIntoView({
+            behavior: 'smooth'
+        });
      }} />
 
    <CardItem cardTitle="Old-Skool DRMs" 
@@ -50,17 +56,20 @@ emailAddr="contact@lucadamico.dev" />
     cardBtnText="Open"
     onBtnClick={() => {
         currentDocuments = papersIndex.drm;
+        document.getElementById("docs-table")?.scrollIntoView({
+            behavior: 'smooth'
+        });
      }} />
 </div>
 
-<div class="flex place-content-center">
-    <div class="w-2/3">
+<div class="flex place-content-center" id="docs-table">
+    <div class="w-full md:w-2/3">
         <DocTable bind:documents={currentDocuments} />
     </div>
 </div>
 
 <ParTitle parTitle="Apps/Tools" />
-<div class="flex justify-evenly px-8">
+<div class="flex place-content-center flex-wrap gap-x-2 gap-y-2 flex-col md:justify-evenly md:flex-row md:gap-y-auto">
     <CardItem cardTitle="NDSFactory" 
     cardText="Unpack & Repack Nintendo DS Roms (.nds)"
     cardImage="/resources/icons/github.png"
@@ -87,7 +96,7 @@ emailAddr="contact@lucadamico.dev" />
 </div>
 
 <ParTitle parTitle="Projects" />
-<div class="flex justify-evenly px-8">
+<div class="flex place-content-center flex-wrap gap-x-2 gap-y-2 flex-col md:justify-evenly md:flex-row md:gap-y-auto">
     <CardItem cardTitle="ReverseIT" 
      cardText="Open source initiative with the aim of becoming the de facto space for reverse engineering and cybersecurity in Italy!"
      cardImage="/resources/cards/projects/reverseit.png"
