@@ -18,7 +18,7 @@ let windowHeight = window.innerHeight;
 const camera = new OrthographicCamera( 0, windowWidth, windowHeight, 0, 0.1, 2000 );
 camera.position.z = 10;
 
-const bubblesNo = 60;
+const bubblesNo = Math.round(0.042 * windowWidth);
 const bubbleTexture = new TextureLoader().load('resources/background/bubble.png');
 const bubbleMaterial = new SpriteMaterial( { map: bubbleTexture } );
 
@@ -63,15 +63,13 @@ const resize = () => {
     camera.top = windowHeight;
     camera.bottom = 0;
     camera.updateProjectionMatrix();
-
     renderer.setSize(windowWidth, windowHeight);
 };
   
 export const createScene = (el:HTMLCanvasElement) => {
     renderer = new WebGLRenderer({ antialias: true, canvas: el });
-    renderer.setPixelRatio( window.devicePixelRatio );
     renderer.setSize( window.innerWidth, window.innerHeight );
-
+    
     initBubbles();
 
     resize();

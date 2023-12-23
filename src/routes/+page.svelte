@@ -35,7 +35,8 @@ emailAddr="contact@lucadamico.dev" />
     onBtnClick={() => {
         currentDocuments = papersIndex.malware_analysis;
         document.getElementById("docs-table")?.scrollIntoView({
-            behavior: 'smooth'
+            behavior: 'smooth',
+            block: 'center'
         });
      }} />
 
@@ -46,7 +47,8 @@ emailAddr="contact@lucadamico.dev" />
     onBtnClick={() => {
         currentDocuments = papersIndex.unpacking;
         document.getElementById("docs-table")?.scrollIntoView({
-            behavior: 'smooth'
+            behavior: 'smooth',
+            block: 'center'
         });
      }} />
 
@@ -57,7 +59,8 @@ emailAddr="contact@lucadamico.dev" />
     onBtnClick={() => {
         currentDocuments = papersIndex.drm;
         document.getElementById("docs-table")?.scrollIntoView({
-            behavior: 'smooth'
+            behavior: 'smooth',
+            block: 'center'
         });
      }} />
 </div>
