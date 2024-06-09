@@ -77,6 +77,19 @@
                     "url": "/papers/drms/securom/SouthParkRally_ITA.pdf"
                 }
             ]
+        },
+        {
+            "title": "phenoProtect (Carrera Grand Prix)",
+            "download": [
+                {
+                    "language": "en",
+                    "url": "/papers/drms/phenoprotect/CarreraGrandPrix.pdf"
+                },
+                {
+                    "language": "ita",
+                    "url": "/papers/drms/phenoprotect/CarreraGrandPrix_ITA.pdf"
+                }
+            ]
         }
     ]
 }
