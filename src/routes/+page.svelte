@@ -97,14 +97,3 @@ emailAddr="contact@lucadamico.dev" />
         window.open("https://github.com/Luca1991/Puzzle-Bobble-Grub2-Theme", "_blank");
     }} />
 </div>
-
-<ParTitle parTitle="Projects" />
-<div class="flex place-content-center flex-wrap gap-x-2 gap-y-2 flex-col md:justify-evenly md:flex-row md:gap-y-auto">
-    <CardItem cardTitle="ReverseIT" 
-     cardText="Open source initiative with the aim of becoming the de facto space for reverse engineering and cybersecurity in Italy!"
-     cardImage="/resources/cards/projects/reverseit.png"
-     cardBtnText="Visit website"
-     onBtnClick={() => {
-        window.open("https://reverseit.space", "_blank");
-     }} />
-</div> 
