@@ -73,13 +73,21 @@ emailAddr="contact@lucadamico.dev" />
 
 <ParTitle parTitle="Apps/Tools" />
 <div class="flex place-content-center flex-wrap gap-x-2 gap-y-2 flex-col md:justify-evenly md:flex-row md:gap-y-auto">
+    <CardItem cardTitle="DiscCheckEmu" 
+    cardText="Disc checks emulator!"
+    cardImage="/resources/icons/github.png"
+    cardBtnText="Open repo"
+    onBtnClick={() => {
+        window.open("https://github.com/Luca1991/DiscCheckEmu", "_blank");
+    }} />
+
     <CardItem cardTitle="NDSFactory" 
     cardText="Unpack & Repack Nintendo DS Roms (.nds)"
     cardImage="/resources/icons/github.png"
     cardBtnText="Open repo"
     onBtnClick={() => {
         window.open("https://github.com/Luca1991/NDSFactory", "_blank");
-     }} />
+    }} />
 
     <CardItem cardTitle="MoRePhun" 
     cardText="Experimental MoPhun Emulator"
