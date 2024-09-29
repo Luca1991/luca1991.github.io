@@ -90,6 +90,19 @@
                     "url": "/papers/drms/phenoprotect/CarreraGrandPrix_ITA.pdf"
                 }
             ]
+        },
+        {
+            "title": "phenoProtect new version (Zanzarah - German version)",
+            "download": [
+                {
+                    "language": "en",
+                    "url": "/papers/drms/phenoprotect/Zanzarah.pdf"
+                },
+                {
+                    "language": "ita",
+                    "url": "/papers/drms/phenoprotect/Zanzarah_ITA.pdf"
+                }
+            ]
         }
     ]
 }
