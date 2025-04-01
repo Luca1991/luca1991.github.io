@@ -12,6 +12,19 @@
                     "url": "/papers/malware_analysis/DiskKnight_ITA.pdf"
                 }
             ]
+        },
+        {
+            "title": "GanDiao (Kernel Driver Malware)",
+            "download": [
+                {
+                    "language": "en",
+                    "url": "/papers/malware_analysis/GanDiao.pdf"
+                },
+                {
+                    "language": "ita",
+                    "url": "/papers/malware_analysis/GanDiao_ITA.pdf"
+                }
+            ]
         }
     ],
     "unpacking": [
