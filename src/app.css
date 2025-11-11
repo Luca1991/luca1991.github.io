@@ -1,21 +1,42 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-    @font-face {
-        font-family: 'Amsterdam-Graffiti';
-		src: url('/fonts/amsterdam.ttf');
-		font-weight: normal;
-		font-display: swap;
-    }
-    h1 {
-        @apply text-2xl;
-      }
-      h2 {
-        @apply text-xl;
-      }
-      h3 {
-        @apply text-lg;
-      }
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui"{   
+  themes: dark --default, cupcake;
 }
+@source "./src/**/*.{svelte,ts,js,html}";
+
+:root,
+[data-theme] {
+  color: #a6adbb;
+   --b1: 258.06 11.16% 17.45%;
+   --fallback-b1: #1d232a;
+   --radius-box: 1rem;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.card-body {
+  font-size: 1.0rem;
+  color: #a6adbb;
+}
+
+@font-face {
+  font-family: "Amsterdam-Graffiti";
+  src: url("/fonts/amsterdam.ttf");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-amsterdam-graffiti: "Amsterdam-Graffiti",
+     ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+     "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+   }
+
