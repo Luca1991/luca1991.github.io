@@ -11,7 +11,8 @@
 
 <div class="card w-96 bg-base-100 shadow-xl image-full">
   <figure><img src="{cardImage}" alt="{cardTitle}" /></figure>
-  <div class="card-body">
+  <div class="absolute inset-0 bg-base-100/60 z-[1]"></div>
+  <div class="card-body z-[2]">
     <h2 class="card-title">{cardTitle}</h2>
     <p>{cardText}</p>
     <div class="card-actions justify-end">

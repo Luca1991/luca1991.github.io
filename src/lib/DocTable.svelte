@@ -14,8 +14,8 @@
             </thead>
             <tbody>
                 {#each documents as document }
-                    <tr class="hover:bg-base-300 bg-base-100">
-                        <td class="min-w-[14rem] text-center">
+                    <tr class="hover:bg-base-300 bg-base-100 text-sm">
+                        <td class="min-w-56 text-center">
                             {document.title}
                         </td>
                         <td>
